@@ -1,14 +1,13 @@
-Greetings!
-==========
+Meteor Toys - Notifications Package
+===================================
 
-This package will let you use the Note() API for Meteor Toys. 
+Meteor Toys provide in-app notifications to save you time from having to go into the console every time an error occurs. It works pretty simple:
 
 ```javascript
-Note(message)
-Note(message, "counter")
-Note(message, data)
+Note("text");                       // logs string "text"
+Note("Tracker Re-runs", "counter"); // logs string and keeps counter
+Note("Result", object);             // logs string and object
 ```
 
-When you are working with Meteor Toys, it will dispaly the notifications in the UI. When you push to production, it will fall back to console.log();
+When you run Meteor Toys, this package will use them to display the notifications. If they are not available, it will default to `console.log`.
 
-More elaborate README coming soon.
