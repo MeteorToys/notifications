@@ -7,6 +7,6 @@ Note = function (text, data) {
 }
 
 // If toys are there, log it
-if (Package["meteortoys:toykit"].Note) {
+if (Package["meteortoys:toykit"] && Package["meteortoys:toykit"].Note) {
 	Note = Package["meteortoys:toykit"].Note;	
 }
