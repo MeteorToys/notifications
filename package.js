@@ -1,7 +1,7 @@
 Package.describe({
   name:          'meteortoys:notifications',
   summary:       'A simple way to jot notifications',
-  version:       '2.1.0',
+  version:       '4.0.0',
   git:           'https://github.com/MeteorToys/Glue.git',
   documentation: 'README.md'
 });
